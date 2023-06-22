@@ -1,0 +1,80 @@
+.login{
+    display:flex;
+    justify-content: space-between;
+    
+}nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    color: orangered;
+    width: 30px;
+    height:30px;
+}body{
+    background-color:#151628 ;
+}.login img{
+    width:200px;
+    height: 200px;
+    padding: 150px;
+}.login{
+    padding: 120px;
+}.cards form{
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    color:#ff0066;
+}.btn1{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin: 15px;
+    text-align: center;
+    width:400px;
+    margin-bottom: 5px;
+    gap:8px;
+    border: 1px solid white;
+    color:black;
+    
+}input {
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    }
+    .one {
+    color: #8ebf42;
+    }
+    .two {
+    color: #ff0066;
+    }
+    .three {
+    color: #1c87c9;
+    }
+    .one::placeholder {
+    color: #1c87c9;
+    }#pre{
+       color:#ff0066;
+    }.cards form label{
+       color:  #ff0066;
+    }.lock-icon{
+        color:#ff0066;
+        display: flex;
+        width:70%;
+        margin: 0 auto;
+    }.lock-icon:h2{
+        color: #ff0066;
+    }.cards form radio{
+        color:#ff0066;
+    }.lock{
+        width:50%;
+        margin:0 auto;
+    }.lock-icon button{
+        width: 30px;
+    }.btn{
+        width:75px;
+        background-color: aqua;
+        color:black;
+        margin: 40px;
+    }

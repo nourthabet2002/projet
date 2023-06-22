@@ -1,0 +1,209 @@
+nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 90px;
+    cursor: pointer;
+}
+nav img{
+    width: 160px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color:#ababab;
+}
+ul :hover{
+    color:blue;
+}
+nav ol{
+  list-style: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.comfort:hover ol{
+  display: flex;
+}.your{
+  justify-content: space-between;
+  margin: 0 auto;
+   width:70%;
+   margin: 0 auto;
+   gap: 90px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(80, 147, 248);
+   height:15%;
+   margin-bottom: 50px;
+}
+main{
+  padding-top: 65px;
+}
+.cl2{
+  display:flex;
+  flex-direction: column ;
+  width:70%;
+ margin: 0 auto;
+ gap: 80px;;
+
+}.cl2 img{
+  width: 30%;
+  
+}.fondecran { 
+  
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fd.newsweek.com%2Fen%2Ffull%2F1966654%2Fsmart-home.jpg&tbnid=XawZXrVgs8pDWM&vet=12ahUKEwiNl5zOuNH_AhXNpicCHYT6Bw8QMygvegUIARCaAg..i&imgrefurl=https%3A%2F%2Fwww.newsweek.com%2Ffuture-smart-homes-connected-complementary-conscious-1667957&docid=geAhVFpqazeQ6M&w=2500&h=1250&q=smart%20home&ved=2ahUKEwiNl5zOuNH_AhXNpicCHYT6Bw8QMygvegUIARCaAg");
+  background-color: grey
+ 
+}.your h1{
+  font-size :70px;
+  width:70%;
+  margin:0 auto;
+  color:#fff;
+}.your p{
+  font-size:14px;
+  font-family: sans-serif;
+  font-weight:500;
+  width:70%;
+  margin:0 auto;
+  color:#fff;
+}.your img{
+  float: left;
+  display: flex;
+  
+  width:30%;
+  margin:0 auto;
+}.add{
+  padding: 0%;
+  width:50%;
+  margin: 150px;
+  background-color: #ababab;
+
+}.add h1{
+  font-size:70px;
+  text-align: center;
+  width:50%;
+  text-shadow: 10cm;
+  
+}.add img{
+  width:25%;
+  height: 150px;
+  justify-content: space-between;
+  margin: 0 auto;
+
+
+}body{
+  background-color:#fff;
+}.cards{
+  width: fit-content;
+  margin: 0 auto;
+   display:flex;
+   justify-content: space-between;
+  
+   
+   gap: 10%;
+   
+}.card{
+  width: 30%;
+  height: 350px;
+  padding: 20px 10px;
+  background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border:solid;
+  
+}.def{
+  display:flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width:40%;
+}.def h1{
+  font-size:x-large;
+  text-align: center;
+}*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}.container{
+max-width: 1170px;
+margin:auto;
+}.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}.ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}.footer-col{
+width: 25%;
+padding: 0 15px;
+}.footer-col h4{
+  font-size: 18px;
+  color:#fff;
+  text-transform: capitalize;
+  margin-bottom: 35px ;
+  font-weight: 500;
+  position: relative;
+  background-color: red;
+}.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63 ;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbb;
+  display: block;
+  transition: all 0.3s ease;
+}.footer-col ul li a:hover{
+ color:#ffff;
+ padding-left: 10px;
+}.footer-col .social-links a{
+ display: inline-block;
+ height: 40px;
+ width: 40px;
+ background-color: rgba(255, 255, 255, 0.2) ;
+ margin: 0 10px 10px 0;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 50%;
+ color:#fff;
+ transition: all 0.5s ease;
+}.footer-col .social-links a:hover{
+color:#24262b;
+background-color: #fff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+
